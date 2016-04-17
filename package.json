@@ -1,0 +1,25 @@
+{
+    "name": "jspm-test",
+    "version": "0.0.1",
+    "description": "Test of SystemJS, Babel & React, using JSPM as a starting point",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "jspm": {
+        "devDependencies": {
+            "babel": "npm:babel-core@^5.8.24",
+            "babel-runtime": "npm:babel-runtime@^5.8.24",
+            "core-js": "npm:core-js@^1.1.4"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "react": "^15.0.1",
+        "react-dom": "^15.0.1",
+        "systemjs": "^0.19.26"
+    }
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SystemJS test</title>
+</head>
+
+<body>
+    <br />
+    <div id="main"></div>
+    <div id="reactMain"></div>
+    <br />
+    <script src="../node_modules/react/dist/react-with-addons.min.js"></script>
+    <script src="../node_modules/react-dom/dist/react-dom.min.js"></script>
+    <script src="../jspm_packages/system.js"></script>
+    <script src="./config.js"></script>
+    <script>
+  
+
+    System.import('./js/app.js');
+    </script>
+</body>
+
+</html>
