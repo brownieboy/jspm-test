@@ -1,4 +1,4 @@
-import React from '../libs/react-with-addons-min.js';
+// import React from '../libs/react-with-addons-min.js';
 
 class MyReactModule extends React.component {
   constructor(props){
@@ -7,7 +7,7 @@ class MyReactModule extends React.component {
   
   render() {
       console.log("this.props = " + JSON.stringify(this.props));
-      return <span>Hi there</span>;
+      // return (<span>Hi there</span>);
   }
   
 

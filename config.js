@@ -1,17 +1,17 @@
 System.config({
   baseURL: "/",
-  defaultJSExtensions: true,
+  defaultJSExtensions: false,
   transpiler: "babel",
   babelOptions: {
-    "blacklist" :[],
+    "blacklist": [],
     "optional": [
       "runtime",
       "optimisation.modules.system"
     ]
   },
   paths: {
-    "github:*": "../jspm_packages/github/*",
-    "npm:*": "../jspm_packages/npm/*"
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*"
   },
 
   map: {
